@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC24FFA42C5EE77000D809FB /* CapFunApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC24FFA32C5EE77000D809FB /* CapFunApp.swift */; };
+		CC24FFA62C5EE77000D809FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC24FFA52C5EE77000D809FB /* ContentView.swift */; };
+		CC24FFA82C5EE77100D809FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC24FFA72C5EE77100D809FB /* Assets.xcassets */; };
+		CC24FFAB2C5EE77100D809FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC24FFAA2C5EE77100D809FB /* Preview Assets.xcassets */; };
+		CC24FFB52C5EE77200D809FB /* CapFunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC24FFB42C5EE77200D809FB /* CapFunTests.swift */; };
+		CC24FFBF2C5EE77200D809FB /* CapFunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC24FFBE2C5EE77200D809FB /* CapFunUITests.swift */; };
+		CC24FFC12C5EE77200D809FB /* CapFunUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC24FFC02C5EE77200D809FB /* CapFunUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC24FFB12C5EE77200D809FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC24FF982C5EE77000D809FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC24FF9F2C5EE77000D809FB;
+			remoteInfo = CapFun;
+		};
+		CC24FFBB2C5EE77200D809FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC24FF982C5EE77000D809FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC24FF9F2C5EE77000D809FB;
+			remoteInfo = CapFun;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC24FFA02C5EE77000D809FB /* CapFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CapFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC24FFA32C5EE77000D809FB /* CapFunApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapFunApp.swift; sourceTree = "<group>"; };
+		CC24FFA52C5EE77000D809FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CC24FFA72C5EE77100D809FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC24FFAA2C5EE77100D809FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CC24FFB02C5EE77200D809FB /* CapFunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapFunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC24FFB42C5EE77200D809FB /* CapFunTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapFunTests.swift; sourceTree = "<group>"; };
+		CC24FFBA2C5EE77200D809FB /* CapFunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapFunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC24FFBE2C5EE77200D809FB /* CapFunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapFunUITests.swift; sourceTree = "<group>"; };
+		CC24FFC02C5EE77200D809FB /* CapFunUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapFunUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC24FF9D2C5EE77000D809FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC24FFAD2C5EE77200D809FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC24FFB72C5EE77200D809FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC24FF972C5EE77000D809FB = {
+			isa = PBXGroup;
+			children = (
+				CC24FFA22C5EE77000D809FB /* CapFun */,
+				CC24FFB32C5EE77200D809FB /* CapFunTests */,
+				CC24FFBD2C5EE77200D809FB /* CapFunUITests */,
+				CC24FFA12C5EE77000D809FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC24FFA12C5EE77000D809FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC24FFA02C5EE77000D809FB /* CapFun.app */,
+				CC24FFB02C5EE77200D809FB /* CapFunTests.xctest */,
+				CC24FFBA2C5EE77200D809FB /* CapFunUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC24FFA22C5EE77000D809FB /* CapFun */ = {
+			isa = PBXGroup;
+			children = (
+				CC24FFA32C5EE77000D809FB /* CapFunApp.swift */,
+				CC24FFA52C5EE77000D809FB /* ContentView.swift */,
+				CC24FFA72C5EE77100D809FB /* Assets.xcassets */,
+				CC24FFA92C5EE77100D809FB /* Preview Content */,
+			);
+			path = CapFun;
+			sourceTree = "<group>";
+		};
+		CC24FFA92C5EE77100D809FB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CC24FFAA2C5EE77100D809FB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CC24FFB32C5EE77200D809FB /* CapFunTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC24FFB42C5EE77200D809FB /* CapFunTests.swift */,
+			);
+			path = CapFunTests;
+			sourceTree = "<group>";
+		};
+		CC24FFBD2C5EE77200D809FB /* CapFunUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC24FFBE2C5EE77200D809FB /* CapFunUITests.swift */,
+				CC24FFC02C5EE77200D809FB /* CapFunUITestsLaunchTests.swift */,
+			);
+			path = CapFunUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC24FF9F2C5EE77000D809FB /* CapFun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC24FFC42C5EE77200D809FB /* Build configuration list for PBXNativeTarget "CapFun" */;
+			buildPhases = (
+				CC24FF9C2C5EE77000D809FB /* Sources */,
+				CC24FF9D2C5EE77000D809FB /* Frameworks */,
+				CC24FF9E2C5EE77000D809FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CapFun;
+			productName = CapFun;
+			productReference = CC24FFA02C5EE77000D809FB /* CapFun.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC24FFAF2C5EE77200D809FB /* CapFunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC24FFC72C5EE77200D809FB /* Build configuration list for PBXNativeTarget "CapFunTests" */;
+			buildPhases = (
+				CC24FFAC2C5EE77200D809FB /* Sources */,
+				CC24FFAD2C5EE77200D809FB /* Frameworks */,
+				CC24FFAE2C5EE77200D809FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC24FFB22C5EE77200D809FB /* PBXTargetDependency */,
+			);
+			name = CapFunTests;
+			productName = CapFunTests;
+			productReference = CC24FFB02C5EE77200D809FB /* CapFunTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC24FFB92C5EE77200D809FB /* CapFunUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC24FFCA2C5EE77200D809FB /* Build configuration list for PBXNativeTarget "CapFunUITests" */;
+			buildPhases = (
+				CC24FFB62C5EE77200D809FB /* Sources */,
+				CC24FFB72C5EE77200D809FB /* Frameworks */,
+				CC24FFB82C5EE77200D809FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC24FFBC2C5EE77200D809FB /* PBXTargetDependency */,
+			);
+			name = CapFunUITests;
+			productName = CapFunUITests;
+			productReference = CC24FFBA2C5EE77200D809FB /* CapFunUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC24FF982C5EE77000D809FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					CC24FF9F2C5EE77000D809FB = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					CC24FFAF2C5EE77200D809FB = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CC24FF9F2C5EE77000D809FB;
+					};
+					CC24FFB92C5EE77200D809FB = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CC24FF9F2C5EE77000D809FB;
+					};
+				};
+			};
+			buildConfigurationList = CC24FF9B2C5EE77000D809FB /* Build configuration list for PBXProject "CapFun" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC24FF972C5EE77000D809FB;
+			productRefGroup = CC24FFA12C5EE77000D809FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC24FF9F2C5EE77000D809FB /* CapFun */,
+				CC24FFAF2C5EE77200D809FB /* CapFunTests */,
+				CC24FFB92C5EE77200D809FB /* CapFunUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC24FF9E2C5EE77000D809FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC24FFAB2C5EE77100D809FB /* Preview Assets.xcassets in Resources */,
+				CC24FFA82C5EE77100D809FB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC24FFAE2C5EE77200D809FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC24FFB82C5EE77200D809FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC24FF9C2C5EE77000D809FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC24FFA62C5EE77000D809FB /* ContentView.swift in Sources */,
+				CC24FFA42C5EE77000D809FB /* CapFunApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC24FFAC2C5EE77200D809FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC24FFB52C5EE77200D809FB /* CapFunTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC24FFB62C5EE77200D809FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC24FFBF2C5EE77200D809FB /* CapFunUITests.swift in Sources */,
+				CC24FFC12C5EE77200D809FB /* CapFunUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC24FFB22C5EE77200D809FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC24FF9F2C5EE77000D809FB /* CapFun */;
+			targetProxy = CC24FFB12C5EE77200D809FB /* PBXContainerItemProxy */;
+		};
+		CC24FFBC2C5EE77200D809FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC24FF9F2C5EE77000D809FB /* CapFun */;
+			targetProxy = CC24FFBB2C5EE77200D809FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CC24FFC22C5EE77200D809FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC24FFC32C5EE77200D809FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC24FFC52C5EE77200D809FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CapFun/Preview Content\"";
+				DEVELOPMENT_TEAM = 452N27Q39H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Pedro.CapFun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC24FFC62C5EE77200D809FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CapFun/Preview Content\"";
+				DEVELOPMENT_TEAM = 452N27Q39H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Pedro.CapFun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CC24FFC82C5EE77200D809FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 452N27Q39H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Pedro.CapFunTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CapFun.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CapFun";
+			};
+			name = Debug;
+		};
+		CC24FFC92C5EE77200D809FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 452N27Q39H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Pedro.CapFunTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CapFun.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CapFun";
+			};
+			name = Release;
+		};
+		CC24FFCB2C5EE77200D809FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 452N27Q39H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Pedro.CapFunUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CapFun;
+			};
+			name = Debug;
+		};
+		CC24FFCC2C5EE77200D809FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 452N27Q39H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Pedro.CapFunUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CapFun;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC24FF9B2C5EE77000D809FB /* Build configuration list for PBXProject "CapFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC24FFC22C5EE77200D809FB /* Debug */,
+				CC24FFC32C5EE77200D809FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC24FFC42C5EE77200D809FB /* Build configuration list for PBXNativeTarget "CapFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC24FFC52C5EE77200D809FB /* Debug */,
+				CC24FFC62C5EE77200D809FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC24FFC72C5EE77200D809FB /* Build configuration list for PBXNativeTarget "CapFunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC24FFC82C5EE77200D809FB /* Debug */,
+				CC24FFC92C5EE77200D809FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC24FFCA2C5EE77200D809FB /* Build configuration list for PBXNativeTarget "CapFunUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC24FFCB2C5EE77200D809FB /* Debug */,
+				CC24FFCC2C5EE77200D809FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC24FF982C5EE77000D809FB /* Project object */;
+}
